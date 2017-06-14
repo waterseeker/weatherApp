@@ -1,0 +1,55 @@
+body {
+  margin-top: 60px; /* offset the navbar */ 
+}
+
+.tempConverter {
+  background-color: #008fff;
+  color: #cee0ff;
+  border-radius: 25px;
+  border: 1px solid silver;
+  outline: none;  /* this removes the 'selected' outline around the button  */
+}
+
+a {
+    color: #cee0ff !important;
+}
+
+a:hover {
+  color: white !important;
+}
+
+.navbar {
+  color: #cee0ff;
+  background-color: #008fff;
+  margin-bottom: 100px;
+}
+
+#weatherUndergroundLogo {
+  height: 40px;
+  width: 40px;
+}
+
+.infoPanel {
+  margin-top: 50px;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 5px solid #008fff;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+#title {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#conditions {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tempC {
+  display: none;
+}
+
+#tempF {
+  display: block;
+}
